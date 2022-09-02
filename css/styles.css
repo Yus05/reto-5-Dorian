@@ -1,0 +1,200 @@
+/*
+Colores
+  dark-purple: hsl(300, 43%, 22%)
+  pink:hsl(333, 80%, 67%)
+  purple: hsl(303, 10%, 53%)
+  soft-white: hsl(300, 24%, 96%)
+  background-color: hsl(0, 0%, 90%);
+
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 90%);
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  overflow: hidden;
+}
+
+.img{
+  position: absolute;
+}
+
+.img_top{
+  width: 30%;
+  top: 0;
+  
+}
+
+.img_bottom{
+  bottom:0;
+  right: 0;
+  width: 55%;
+}
+
+/* Vamos a trabajar con el Header */
+.header{
+  position: relative;
+  width: 904px;
+  height: 250px;
+  overflow: hidden;
+}
+
+/* Posiciono los 2 divs que contiene el header */
+.header_text,
+.header_cards{
+  position: absolute;
+  width: 50%;
+}
+
+/* Muevo el div que contiene el titulo y el texto */
+.header_text{
+  left: 15%;
+  top: 30%;
+}
+
+/* Muevo el div que contiene los "botones" */
+.header_cards{
+  left: 55%;
+  top: 30%;
+}
+
+/* Trabajo con el div que contiene el titulo y texto */
+.title_text{
+  width: 250px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: hsl(300, 43%, 22%);
+}
+
+.title_parrafo{
+  width: 200px;
+  font-weight: 200;
+  font-size: 0.5rem;
+  color: hsl(300, 43%, 22%);
+}
+
+/* Trabajo en los divs que contiene a las estrellas y al texto*/
+.card_header{
+  position: relative;
+  font-weight: 200;
+  font-size: 0.5rem;
+  background-color: hsl(300, 24%, 96%);
+  margin-top: 5px;
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.ancla{
+  position: relative;
+  top: 12px;
+  text-decoration: none;
+}
+
+.star{
+  position: relative;
+  margin-right: 5px;
+  top: 12px;
+  width: 0.5rem;
+}
+
+.card_1,
+.card_2,
+.card_3{
+  position: absolute;
+}
+
+.card_1{
+  top: 0;
+  left: 0;
+}
+
+.card_2{
+  top: 45px;
+  left: 25px;
+}
+
+.card_3{
+  top: 90px;
+  left: 50px;
+} 
+
+/* Vamos a trabajar con la parte posterior de la web */
+/* Posiciono y le doy medidas al contenedor*/
+.container{
+  position: relative;
+  left: 15%;
+  width: 904px;
+}
+
+/* Posiciono y le doy estilos a las tarjetas */
+.card{
+  position: absolute;
+  width: 180px;
+  height: 90px;
+  font-weight: 200;
+  font-size: 0.5rem;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+}
+
+.card_irene{
+  left: 200px;
+  top: 15px;
+}
+.card_anne{
+  left: 400px;
+  top: 30px;
+}
+
+
+/* Voy con los estilos internos de las tarjetas */
+
+.header_card{
+  position: absolute;
+  width: 180px;
+  height: 45px;
+  /* background-color: lightblue; */
+}
+
+.span_name,
+.span_title{
+  position: absolute;
+  left: 50px;
+  font-weight: 200;
+  font-size: 0.5rem;
+}
+
+.span_name{
+  top: 1rem;
+  color: hsl(300, 24%, 96%);
+}
+
+.span_title{
+  top: 1.8rem;
+  color: hsl(333, 80%, 67%);
+}
+
+.picture{
+  position: absolute;
+  left: 15px;
+  top: 0.7rem;
+  width: 1.7rem;
+  border-radius: 15px;
+}
+
+.parrafo_card{
+  position: absolute;
+  top: 35px;
+  left: 15px;
+  width: 150px;
+  color: hsl(300, 24%, 96%);
+}
